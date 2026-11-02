@@ -3,111 +3,616 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="DAAC (Development and Aid Access Center) — GOMYCODE's proposal for the Covenant University in collaboration with IPA: United Nations World Food Day and Eradication of Poverty Hackathon Challenge."
+    />
+    <title>DAAC | Development and Aid Access Center</title>
     <link rel="stylesheet" href="style.css" />
-    <title>Graduation Match</title>
   </head>
   <body>
-    <div class="hero">
-      <div>
-        <h1>Graduation<br />Match.</h1>
-        <p>IPA HACKATHON SUBMISSION</p>
-      </div>
-      <div class="img">
-        <img src="./handill.jpg" alt="Graduation" />
-      </div>
-    </div>
-    <div class="body">
-      <nav class="nav">
-        <div class="navlinks">
-          <ul>
-            <li><a href="#executive-summary">Executive Summary</a></li>
-            <li><a href="#introduction">Introduction</a></li>
-            <li><a href="#problem-statement">Problem Statement</a></li>
-            <li><a href="#ai-solution">AI-driven Solution</a></li>
-            <li><a href="#feasibility">Feasibility</a></li>
-            <li><a href="#scalability">Scalability &amp; Sustainability</a></li>
-            <li><a href="#expected-impact">Expected Impact</a></li>
-            <li>
-              <a href="#budget-timeline">Budget &amp; Project Timeline</a>
-            </li>
-            <li><a href="#conclusion">Conclusion</a></li>
-            <li><a href="#team-roles">Team &amp; Roles</a></li>
-          </ul>
-        </div>
-      </nav>
+    <main class="deck" id="deck" aria-label="DAAC presentation">
+      <section class="slide title-slide" aria-labelledby="project-title">
+        <div class="slide-content title-content">
+          <header class="brand-banner">
+            <div class="brand-copy">
+              <h1 id="project-title">DAAC</h1>
+              <p class="brand-expansion">Development and Aid Access Center</p>
+            </div>
+            <img
+              class="brand-art"
+              src="handill.jpg"
+              alt="Orange handprints surrounding a red heart"
+            />
+          </header>
 
-      <div class="txtcontent">
-        <section id="executive-summary">
-          <h2>Executive Summary</h2>
-          <p>
-            Our proposal presents a clear, practical solution designed to
-            address a meaningful challenge with measurable impact.
+          <div class="team-heading">
+            <div>
+              <p class="eyebrow">PROJECT TEAM</p>
+              <h2>GOOURCODE</h2>
+            </div>
+            <p class="university">Covenant University</p>
+          </div>
+
+          <div class="members" aria-label="Team members">
+            <article class="member">
+              <h3>Alexis Chimdi Keke</h3>
+              <p>Biotechnology, 200 Level</p>
+              <p>Co-Researcher and Writer</p>
+            </article>
+            <article class="member">
+              <h3>Ezechukwu Adachukwu</h3>
+              <p>Computer Science, 200 Level</p>
+              <p>Website Developer & Writer</p>
+            </article>
+            <article class="member">
+              <h3>Ilekuba Oluebube Collins</h3>
+              <p>Computer Science, 200 Level</p>
+              <p>Website Developer</p>
+            </article>
+            <article class="member">
+              <h3>Sonubi Ibidolaoluwa</h3>
+              <p>Computer Science, 200 Level</p>
+              <p>Lead Researcher and Writer</p>
+            </article>
+            <article class="member">
+              <h3>Arebamhen Faith Onyinye</h3>
+              <p>Biochemistry, 200 Level</p>
+              <p>Reviewer</p>
+            </article>
+            <article class="member">
+              <h3>Adekanmbi Mary Oluwabusayomi</h3>
+              <p>Biochemistry, 200 Level</p>
+              <p>Reviewer</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="slide" aria-labelledby="summary-title">
+        <div class="slide-content">
+          <header class="slide-heading">
+            <h2 id="summary-title">Executive Summary</h2>
+          </header>
+          <div class="editorial-grid summary-grid">
+            <article class="story-block">
+              <p>
+                Across Nigeria, numerous government, NGO, and development
+                programmes exist to support people facing economic hardship.
+                However, the existence of these programmes does not guarantee
+                that the people who need them can find or access them.
+                Information is often scattered across different platforms and
+                social media, creating a gap between resources and the people
+                they are intended for.
+              </p>
+              <p>
+                So, we thought of a simple idea to counter this problem. DAAC is
+                a platform designed to bridge this gap by matching individuals
+                with programmes based on their circumstances, needs, and goals.
+                Users provide basic information about themselves and their
+                situation (e.g., location, occupation, income range, household
+                size, details about a farm or business). DAAC compares their
+                profile with available programmes and presents relevant
+                opportunities, including requirements, benefits, and application
+                processes.
+              </p>
+              <p>
+                Artificial intelligence supports information collection, speech
+                and language processing, profile creation, and programme
+                matching. AI does not make final eligibility decisions; instead,
+                organizations determine eligibility based on each programme's
+                requirements. To reach users with limited internet access or
+                digital illiteracy, the platform is designed to become
+                accessible through channels such as websites, USSD, SMS and
+                voice-based services.
+              </p>
+              <p>
+                Rather than focusing solely on short-term relief, DAAC connects
+                individuals to longer-term opportunities in agriculture,
+                education, employment, finance, and entrepreneurship. The
+                platform can begin as a low-cost prototype and scale through
+                partnerships with government agencies, NGOs, development
+                organizations, and research institutions. The goal of DAAC is to
+                make support more accessible and help households sustain better
+                livelihoods, thereby reducing poverty.
+              </p>
+            </article>
+          </div>
+          <p class="word-count">
+            Executive Summary word count:
+            <output id="summary-word-count">0</output> words
           </p>
-        </section>
-        <section id="introduction">
-          <h2>Introduction</h2>
-          <p>
-            This project introduces an innovative approach that combines user
-            needs, practical implementation, and scalable design.
-          </p>
-        </section>
-        <section id="problem-statement">
-          <h2>Problem Statement</h2>
-          <p>
-            We identified a core challenge that limits efficiency,
-            accessibility, and long-term sustainability.
-          </p>
-        </section>
-        <section id="ai-solution">
-          <h2>AI-driven Solution</h2>
-          <p>
-            By leveraging AI capabilities, we can automate decision-making,
-            improve personalization, and support better outcomes.
-          </p>
-        </section>
-        <section id="feasibility">
-          <h2>Feasibility</h2>
-          <p>
-            The solution is grounded in realistic requirements, manageable
-            implementation steps, and achievable milestones.
-          </p>
-        </section>
-        <section id="scalability">
-          <h2>Scalability &amp; Sustainability</h2>
-          <p>
-            Our design supports growth, efficient resource use, and long-term
-            value for stakeholders.
-          </p>
-        </section>
-        <section id="expected-impact">
-          <h2>Expected Impact</h2>
-          <p>
-            We anticipate improved performance, stronger engagement, and
-            measurable benefits across the target audience.
-          </p>
-        </section>
-        <section id="budget-timeline">
-          <h2>Budget &amp; Project Timeline</h2>
-          <p>
-            The plan includes realistic resource allocation, milestone tracking,
-            and a practical delivery schedule.
-          </p>
-        </section>
-        <section id="conclusion">
-          <h2>Conclusion</h2>
-          <p>
-            Overall, this initiative offers a strong path to meaningful value
-            creation and sustainable progress.
-          </p>
-        </section>
-        <section id="team-roles">
-          <h2>Team &amp; Roles</h2>
-          <p>
-            Our multidisciplinary team brings complementary skills in strategy,
-            product, technology, and implementation.
-          </p>
-        </section>
+        </div>
+      </section>
+
+      <section class="slide" aria-labelledby="introduction-title">
+        <div class="slide-content">
+          <header class="slide-heading">
+            <h2 id="introduction-title">Introduction</h2>
+          </header>
+          <div class="editorial-grid two-column">
+            <p class="lead">
+              The poverty rate in Nigeria stands at approximately 62% to 63%
+              <a
+                href="https://www.vanguardngr.com/2026/04/nigerias-poverty-rate-climbs-to-63-despite-easing-inflation-world-bank/"
+                target="_blank"
+                rel="noreferrer"
+                >(Vanguard)</a
+              >. That is roughly 140 million people out of the Nigerian
+              population living in poverty.
+            </p>
+            <p>
+              In 2024 alone, Nigeria had 191,278 registered non-governmental
+              organizations (NGOs) according to official data from the Corporate
+              Affairs Commission
+              <a
+                href="https://guardian.ng/news/amid-low-impacts-over-174100-new-ngos-established-in-4yrs/"
+                target="_blank"
+                rel="nonreferrer"
+              >
+                (Guardian).</a
+              >
+            </p>
+            <p>
+              Not only in Nigeria but all over the world, governments, NGOs,
+              organizations, and individuals set up forms of aid to improve
+              livelihoods. But just because these initiatives exist does not
+              mean they are accessible to the common person.
+            </p>
+            <p>
+              Many low-income families, farmers, and youths are not aware of
+              opportunities that would benefit them. Information is scattered
+              across various platforms, social media, websites, and channels,
+              and specific programmes may not even be suitable for them.
+            </p>
+            <p>
+              DAAC aims to bridge the gap between these opportunities and people
+              who need them by understanding individuals' situations based on
+              the information they provide and matching them with appropriate
+              programmes and resources to reduce poverty in the long run.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="slide" aria-labelledby="problem-title">
+        <div class="slide-content">
+          <header class="slide-heading">
+            <h2 id="problem-title">Problem Statement &amp; Case Study</h2>
+            <h3>The Poverty Challenge</h3>
+          </header>
+          <div class="editorial-grid two-column problem-grid">
+            <article class="story-block">
+              <p>
+                Based on the figures provided, the ratio of NGOs to people in
+                poverty in Nigeria is approximately 1:737. Removing NGOs that
+                are inactive or just on paper makes the ratio even wider. While
+                these organizations may be able to help people, are they giving
+                the right kind of help to those who need it?
+              </p>
+
+              <p>
+                Many local NGOs underperform because they come in with
+                "pre-planned agendas." They roll out standard interventions
+                without first mapping the exact demographic profile, needs, or
+                pre-existing knowledge of the community. Therefore, they can't
+                tailor their services to fit the community they're trying to
+                help.
+              </p>
+              <p>
+                Development and upskilling programmes have different eligibility
+                requirements and application processes, and their information is
+                widely distributed. For people with low literacy, this could be
+                a barrier to navigating these systems and applying to these
+                opportunities, especially when criteria and information are
+                buried in PDFs.
+              </p>
+              <p>
+                For organizations, while social media exists and physical
+                campaigns can be done, finding the right individuals who can
+                properly benefit from their programmes may be difficult. This
+                presents the problem: resources are out there, but the
+                connection between those who need it and those who provide them
+                is almost nonexistent.
+              </p>
+            </article>
+            <article class="case-study">
+              <h2>THE CASE STUDY</h2>
+              <h3>
+                Empirical Research: The MIT/Bangladesh Asset Trap Study (2022)
+              </h3>
+              <p>
+                This was a landmark longitudinal study spanning 11 years by MIT
+                and LSE economists which tracked 6,000 households in rural
+                Bangladesh
+                <a
+                  href="https://phys.org/news/2022-05-poor-simply-lack-opportunities-gain.html"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Source</a
+                >.
+              </p>
+              <p>
+                It revealed that poverty is not the product of a person's
+                capabilities or attitudes but that the very poor are trapped
+                because they lack initial access to productive assets or
+                opportunities to clear a basic wealth threshold.
+              </p>
+              <p>
+                The study showed that by providing a one time resource (like a
+                single cow) with training allowed impoverished women to shift
+                from low wage labor to sustainable livestock rearing and land
+                cultivation, permanently escaping the poverty trap.
+              </p>
+              <p>
+                To put it simply, the poor do not lack drive or ability, what
+                they lack are the right opportunities. DAAC addresses this by
+                bringing the right opportunities to thse who need them in a
+                clear format that they can understand and simplifying the
+                application process.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="slide" aria-labelledby="solution-title">
+        <div class="slide-content">
+          <header class="slide-heading">
+            <h2 id="solution-title">Proposed AI-driven Solution</h2>
+          </header>
+          <div class="editorial-grid two-column">
+            <p class="lead">
+              The Development and Aid Access Center is a platform that helps
+              people find support programmes they qualify for. Nigeria already
+              has numerous programmes for agriculture, training, employment,
+              finance, business, and social support, but the information is
+              often scattered across different organisations and platforms. For
+              someone looking for help, knowing what is available can be
+              difficult.
+            </p>
+            <p>
+              The idea is simple: tell us a little about your situation, and
+              we'll help you find programmes that may fit. A user could provide
+              their state or LGA, age, occupation, income range, household size,
+              and, where relevant, information about their farm or business. We
+              then compare that profile with information from verified
+              programmes and show the user relevant options, including their
+              requirements, what they offer, and how to apply.
+            </p>
+            <p>
+              For those without constant electricity, this process can be
+              carried out using a USSD code or a phone line for those who can't
+              write. The user enters the code and is prompted to provide their
+              location, needs, situation, and other details. Alternatively,
+              callers to the helpline are prompted to select their language and
+              then speak. The information provided would be logged in our
+              systems.
+            </p>
+            <p>
+              AI is then used to search our database of registered programmes
+              for those that users qualify for and that closely suit their
+              needs, and to deliver the results by text. Users would also have
+              the option to send a USSD code for the programme they are most
+              interested in. They could opt in to receive ongoing notifications
+              when new opportunities arise. A website would also be available
+              for those who are more digitally literate.
+            </p>
+            <p>
+              If the platform is widely used, it can serve as a data collection
+              channel for organizations and support programmes, helping them
+              gain better information about demographic needs.
+            </p>
+            <p>
+              Artificial intelligence is part of the platform's data collection,
+              speech translation, information extraction, and programme
+              matching. However, it does not make final eligibility decisions.
+              Matching itself will use the requirements set by each programme
+              and their staff (if the programme requires it).
+            </p>
+            <p>
+              We're not planning to build a short-term relief solution that
+              provides only handout packages, food aid, and distribution. We
+              plan to build a self-sustaining system where individuals can be
+              matched with programmes that will train them in different areas,
+              such as farming and agriculture, trading and vocations, education,
+              and more. After all, "Give a man a fish, and you feed him for a
+              day; teach a man to fish, and you feed him for a lifetime."
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="slide" aria-labelledby="sustainability-title">
+        <div class="slide-content">
+          <header class="slide-heading">
+            <h2 id="sustainability-title">Scalability &amp; Sustainability</h2>
+          </header>
+          <div class="editorial-grid three-column scalability-grid">
+            <article class="story-block">
+              <p>
+                For scalability, we're looking at two deciding factors: Can this
+                work beyond the prototype? And can it keep operating without
+                becoming too expensive or dependent on us or the development
+                team?
+              </p>
+              <p>
+                The system would initially be piloted with a small number of
+                programmes in targeted communities. Once the pilot has been
+                validated, feedback collected, and improvements made, it can
+                then be expanded to additional programmes and states, and
+                eventually to other countries facing similar challenges.
+              </p>
+              <p>
+                One thing to note is that the system does not require
+                organizations to replace their existing processes. Rather, it
+                allows them to integrate the tools they already use for their
+                programmes into our platform to improve beneficiary-to-program
+                matching, identify gaps in outreach, and target available
+                resources efficiently.
+              </p>
+              <p>
+                For beneficiary-to-program matching, AI would be used to create
+                beneficiary profiles, identify patterns, flag possible barriers,
+                and verify evidence. Programme staff or the organization itself
+                would make the final decisions.
+              </p>
+              <p>
+                Long-term sustainability would come through partnerships with
+                NGOs, government agencies, development organizations, and
+                research institutions, along with a model where small
+                organizations have access to basic monitoring tools and larger
+                programmes pay for advanced analytics and reporting.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="slide" aria-labelledby="impact-title">
+        <div class="slide-content">
+          <header class="slide-heading">
+            <h2 id="impact-title">Expected Impact</h2>
+          </header>
+          <div class="editorial-grid two-column impact-grid">
+            <article class="story-block impact-stat">
+              <p>
+                Before looking at the expected impact of the proposed solution,
+                we must first consider the impact of education and support
+                programmes on poverty alleviation.
+              </p>
+              <p>
+                <strong
+                  >The Innovations for Poverty Action Graduation Approach </strong
+                >boosts household income by 32–45% and per capita consumption by
+                18–25%, as seen in evaluations across settings such as Uganda's
+                refugee settlements. It generates a 40–88% increase in
+                productive assets, such as livestock and land, and significantly
+                increases savings and borrowing, with savings multiplying
+                relative to comparison or near-poor groups.
+              </p>
+              <p>Other programmes like this include:</p>
+              <p>
+                <strong>The Kaduna State Ultra-Poor Graduation Program:</strong>
+                Fully led by a state government, this is the first ultra-poor
+                graduation initiative of its kind in West Africa. Coordinated
+                through the Kaduna State Social Investment Program Agency
+                (KATSIPA), it targets the state's most vulnerable households on
+                the social register who earn less than $3 per day.
+              </p>
+              <p>
+                <strong>The BOMA Project REAP Model (Kenya):</strong> The Rural
+                Entrepreneur Assessment Project (REAP) is a prominent,
+                gender-focused poverty graduation model evaluated by researchers
+                alongside IPA Kenya.
+              </p>
+              <p>
+                <strong>National Skills Training Strategy:</strong> A
+                coordinated sub-program managed under the National Poverty
+                Reduction with Growth Strategy (NPRGS) targets 5 million young
+                Nigerians, offering intensive vocational, entrepreneurship, and
+                digital empowerment packages to ensure market-driven graduation
+                from extreme poverty.
+              </p>
+              <p>
+                These are programmes we might not have known about without our
+                research. Some of their impact can be attributed to us should
+                people be connected to them through our platform.
+              </p>
+              <p>
+                The DAAC platform is expected to alleviate poverty by increasing
+                vulnerable people's access to suitable development and aid
+                programmes. As a phone application, the platform is expected to
+                reach vulnerable community members with phones (about 70% of the
+                133 million Nigerians living in poverty).
+              </p>
+              <p>
+                In the short term, we aim to improve access to poverty
+                alleviation initiatives. In the medium term, we intend for the
+                platform to serve as a reliable means for vulnerable populations
+                to receive education, economic empowerment, and aid. In the long
+                run, we expect DAAC to facilitate sustainable change by reducing
+                poverty rates and serve as a data collection avenue for
+                organization that need it for humanitarian purposes.
+              </p>
+              <p>
+                We intend to monitor and measure progress through survey forms,
+                follow-up and feedback, and data from programmes and
+                organizations, tracking impact over 3–12 months.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="slide" aria-labelledby="budget-title">
+        <div class="slide-content">
+          <header class="slide-heading">
+            <h2 id="budget-title">Budget &amp; Project Timeline</h2>
+          </header>
+          <div class="editorial-grid two-column budget-grid">
+            <article class="story-block">
+              <h3>Prototype</h3>
+              <p>
+                The pilot version will be a working prototype of a website built
+                without a large upfront budget using free hosting, database, and
+                AI/API tiers. This would be tested in a local environment to
+                gain feedback and add improvements. WhatsApp, SMS and USSD can
+                be added later on as the project scales. The downside is that
+                the pilot version may not be scalable in very rural areas with
+                low digital literacy in a website form.
+              </p>
+            </article>
+            <article class="story-block budget-estimate">
+              <p>
+                Once testing is successful, the budget is estimated at ₦1–2.4
+                million for a team of two developers over roughly two months,
+                with technical maintenance estimated at ₦150,000–₦600,000 per
+                year.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="slide" aria-labelledby="conclusion-title">
+        <div class="slide-content">
+          <header class="slide-heading">
+            <h2 id="conclusion-title">Conclusion</h2>
+          </header>
+          <div class="editorial-grid two-column conclusion-grid">
+            For the underprivileged, the problem is not always that help does
+            not exist. Sometimes, the problem is that they do not know where to
+            find it, do not know whether they qualify, or cannot navigate the
+            process of accessing it. The Development and Aid Access Center is
+            built to close this gap. By connecting individuals to verified
+            programmes based on their specific circumstances, we can make
+            existing resources more accessible while helping organizations reach
+            the people they are actually designed to serve. Ultimately, by
+            giving people access to and knowledge of the opportunities that can
+            help them, we hope to contribute to a more accessible and
+            sustainable approach to poverty alleviation through empowerment and
+            education.
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <nav class="bottom-nav" aria-label="Presentation slide navigation">
+      <div class="navigation-row">
+        <button
+          class="nav-arrow"
+          type="button"
+          data-direction="-1"
+          aria-label="Previous slide"
+        >
+          ←
+        </button>
+        <div class="slide-tabs" role="group" aria-label="Choose a slide">
+          <button
+            class="slide-tab is-active"
+            type="button"
+            data-slide="0"
+            aria-label="Slide 1: Title and team"
+            aria-current="true"
+          >
+            <span class="tab-number">01</span
+            ><span class="tab-label">Team</span>
+          </button>
+          <button
+            class="slide-tab"
+            type="button"
+            data-slide="1"
+            aria-label="Slide 2: Executive summary"
+          >
+            <span class="tab-number">02</span
+            ><span class="tab-label">Summary</span>
+          </button>
+          <button
+            class="slide-tab"
+            type="button"
+            data-slide="2"
+            aria-label="Slide 3: Introduction"
+          >
+            <span class="tab-number">03</span
+            ><span class="tab-label">Introduction</span>
+          </button>
+          <button
+            class="slide-tab"
+            type="button"
+            data-slide="3"
+            aria-label="Slide 4: Problem statement and case study"
+          >
+            <span class="tab-number">04</span
+            ><span class="tab-label">Problem</span>
+          </button>
+          <button
+            class="slide-tab"
+            type="button"
+            data-slide="4"
+            aria-label="Slide 5: Proposed AI driven solution"
+          >
+            <span class="tab-number">05</span
+            ><span class="tab-label">Solution</span>
+          </button>
+          <button
+            class="slide-tab"
+            type="button"
+            data-slide="5"
+            aria-label="Slide 6: Scalability and sustainability"
+          >
+            <span class="tab-number">06</span
+            ><span class="tab-label">Scalability</span>
+          </button>
+          <button
+            class="slide-tab"
+            type="button"
+            data-slide="6"
+            aria-label="Slide 7: Expected impact"
+          >
+            <span class="tab-number">07</span
+            ><span class="tab-label">Impact</span>
+          </button>
+          <button
+            class="slide-tab"
+            type="button"
+            data-slide="7"
+            aria-label="Slide 8: Budget and project timeline"
+          >
+            <span class="tab-number">08</span
+            ><span class="tab-label">Budget</span>
+          </button>
+          <button
+            class="slide-tab"
+            type="button"
+            data-slide="8"
+            aria-label="Slide 9: Conclusion"
+          >
+            <span class="tab-number">09</span
+            ><span class="tab-label">Conclusion</span>
+          </button>
+        </div>
+        <button
+          class="nav-arrow"
+          type="button"
+          data-direction="1"
+          aria-label="Next slide"
+        >
+          →
+        </button>
       </div>
-    </div>
+      <input
+        class="slide-range"
+        type="range"
+        min="0"
+        max="8"
+        step="1"
+        value="0"
+        aria-label="Slide position"
+        aria-valuetext="Slide 1 of 9"
+      />
+    </nav>
+
+    <script src="script.js"></script>
   </body>
 </html>
